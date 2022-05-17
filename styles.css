@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  background: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+}
+
+/* Align QR Container within main element */
+main {
+  align-items: center;
+  display: flex;
+  height: 97vh;
+  justify-content: center;
+  margin: 0;
+  width: 100vw;
+}
+
+/* QR Container Background */
+.qr-container {
+  background: hsl(0, 0%, 100%);
+  border-radius: 1.6rem;
+  box-shadow: 0 1.5rem 3rem 0 hsla(220, 15%, 75%, 50%);
+  width: 32rem;
+}
+
+/* Removing block and margin styling from figure element */
+
+figure {
+  display: inline-block;
+  margin: 0;
+}
+
+/* QR Code Image */
+.qr-code-img {
+  border-radius: 1rem;
+  display: block;
+  margin: 1.5rem auto;
+  width: 29rem;
+}
+
+/* Text beneath QR Code */
+.qr-code-caption {
+  margin: 3rem auto 3.5rem auto;
+  padding: 0;
+  text-align: center;
+  width: 80%;
+}
+
+.qr-code-caption h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+.qr-code-caption p {
+  color: hsl(220, 15%, 60%);
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 0;
+  margin: 1.6rem 0 0 0;
+}
+
+/* Footer/Attribution Styling */
+footer {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+
+.attribution {
+  background: hsl(0, 0%, 100%);
+  border-radius: 1.6rem 1.6rem 0 0;
+  color: hsl(218, 44%, 22%);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.attribution p {
+  margin: .3rem;
+  padding: .5rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
